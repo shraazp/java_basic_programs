@@ -13,6 +13,7 @@ public class HarmoincNumber {
 			sum=sum+(1/i);
 		}
 		System.out.println("The harmonic value is "+sum);
+		sc.close();
 	}
 
 }
