@@ -8,13 +8,13 @@ public class Factors {
 		System.out.println("Enter the number to find prime factor");
 		int n=sc.nextInt();
 		System.out.println("Prime factors of "+n+" are");
-		for(int i=2;i*i<=n;i++)
+		for(int i=2;i<=n;i++)
 		{
-			if(n%i==0)
+			while(n%i==0)
 			{
 				System.out.print(i+" ");
+				n=n/i;
 			}
-			n=n/i;
 		}
 		sc.close();
 	}
