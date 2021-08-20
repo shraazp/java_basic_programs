@@ -5,7 +5,7 @@ public class Quadratic {
 	public static void roots(int a,int b,int c)
 	{
 		int delta=b*b-4*a*c;
-		double root1=(-b+Math.sqrt(delta))/(2*a);    //formula for calculating roots of a quadratic equation
+		double root1=(-b+Math.sqrt(delta))/(2*a);    //formula for calculating roots of a quadratic equations
 		double root2=(-b-Math.sqrt(delta))/(2*a);
 		System.out.println("The roots af the equaiton is "+root1+","+root2);
 	}
