@@ -1,1 +1,1 @@
-# basic core java programs
+# basic core java and functional programming concepts.
